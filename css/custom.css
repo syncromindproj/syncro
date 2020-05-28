@@ -1,0 +1,449 @@
+/* Primera opcion del menu */
+.fp-viewing-inicio #logo_color  {
+  display: none !important;
+}
+
+/* Fin primera opcion del menu */
+
+/* Segunda opcion del menu */
+
+.fp-viewing-nosotros nav ul li{
+  margin: 10px !important;
+  text-decoration: none !important;
+  color: #001218 !important;
+  transition: .5s ease !important;
+}
+
+.fp-viewing-nosotros nav ul li a{
+  color: #001218 !important;
+}
+
+.fp-viewing-nosotros nav ul li:nth-child(2) a{
+  color: #cfd244 !important;
+  transition: .5s ease !important;
+}
+
+.fp-viewing-nosotros #logo_color  {
+    display: inline !important;
+    transition: .2s ease !important;
+}
+
+.fp-viewing-nosotros #main_logo  {
+    display: none !important;
+    transition: .2s ease !important;
+}
+
+.fp-viewing-nosotros #main_menu{
+    background: #fff !important;
+    transition: .9s ease !important;
+}
+
+/*.fp-viewing-nosotros #fp-nav ul li a span, .fp-slidesNav ul li a span {
+    height: 2px;
+    margin: 3px 0 0 -6px;
+    background: #001218;
+    width: 13px;
+    border-radius: 0px;
+    transition: .9s ease !important;
+}
+
+.fp-viewing-nosotros #fp-nav ul li a span{
+    background: #000;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.fp-viewing-nosotros #fp-nav ul li .fp-tooltip{
+    color:#000;
+    font-family: 'Titillium Web', sans-serif;
+}*/
+
+.fp-viewing-nosotros .div_iconos{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15vh;
+}
+
+.fp-viewing-nosotros .div_icono{
+  width: 50%;
+  text-align: center;
+  margin-bottom: 25px;
+  opacity: 0;
+}
+
+.fp-viewing-nosotros .div_icono p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:15px;
+  font-weight: 800;
+}
+
+#icono_estrategia.active,
+#icono_creatividad.active{
+  animation: test_1 4s ease;
+  opacity: 1;
+}
+
+.icono_active{
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.icono_active_2{
+  animation-name: fadeIn;
+  animation-duration: 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+}
+
+.icono_active_3{
+  animation-name: fadeIn;
+  animation-duration: 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+.icono_active_4{
+  animation-name: fadeIn;
+  animation-duration: 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeIn{
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+/* Fin segunda opcion del menu */
+
+
+/* tercera opcion del menu */
+.fp-viewing-servicios-0 nav ul li a,
+.fp-viewing-servicios-1 nav ul li a,
+.fp-viewing-servicios-2 nav ul li a,
+.fp-viewing-servicios-3 nav ul li a{
+  transition: .5s ease !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #001218 !important;
+}
+
+.fp-viewing-servicios-0 nav ul li,
+.fp-viewing-servicios-1 nav ul li,
+.fp-viewing-servicios-2 nav ul li,
+.fp-viewing-servicios-3 nav ul li{
+    margin: 10px !important;
+    text-decoration: none !important;
+    color: #c2c2c2 !important;
+    transition: .5s ease !important;
+}
+
+.fp-viewing-servicios-0 nav ul li:nth-child(3) a,
+.fp-viewing-servicios-1 nav ul li:nth-child(3) a,
+.fp-viewing-servicios-2 nav ul li:nth-child(3) a,
+.fp-viewing-servicios-3 nav ul li:nth-child(3) a{
+  color: #cfd244 !important;
+  transition: .5s ease !important;
+}
+
+.fp-viewing-servicios-0 nav ul li:nth-child(3) a:hover,
+.fp-viewing-servicios-1 nav ul li:nth-child(3) a:hover,
+.fp-viewing-servicios-2 nav ul li:nth-child(3) a:hover,
+.fp-viewing-servicios-3 nav ul li:nth-child(3) a:hover{
+  text-decoration: none !important;
+}
+
+.fp-viewing-servicios-0 nav ul li:nth-child(3),
+.fp-viewing-servicios-1 nav ul li:nth-child(3),
+.fp-viewing-servicios-2 nav ul li:nth-child(3),
+.fp-viewing-servicios-3 nav ul li:nth-child(3){
+  border-bottom: 2px solid #cfd244 !important;
+}
+
+.fp-viewing-servicios-0 #logo_color,
+.fp-viewing-servicios-1 #logo_color,
+.fp-viewing-servicios-2 #logo_color,
+.fp-viewing-servicios-3 #logo_color  {
+  display: none !important;
+  transition: .2s ease !important;
+}
+
+.fp-viewing-servicios-0 #main_logo,
+.fp-viewing-servicios-1 #main_logo,
+.fp-viewing-servicios-2 #main_logo,
+.fp-viewing-servicios-3 #main_logo{
+  display: inline !important;
+  transition: .2s ease !important;
+}
+
+.fp-viewing-servicios-0 #main_menu,
+.fp-viewing-servicios-1 #main_menu,
+.fp-viewing-servicios-2 #main_menu,
+.fp-viewing-servicios-3 #main_menu{
+    /*background: #fff !important;*/
+    transition: .9s ease !important;
+}
+
+.fp-viewing-servicios-0 #menu,
+.fp-viewing-servicios-1 #menu,
+.fp-viewing-servicios-2 #menu,
+.fp-viewing-servicios-3 #menu{
+    background: #fff !important;
+}
+/* Fin tercera opcion del menu */
+
+/* Cuarta opcion del menu */
+.fp-viewing-clientes #logo_color  {
+  display: inline !important;
+  transition: .2s ease !important;
+}
+
+.fp-viewing-clientes #main_logo{
+  display: none !important;
+  transition: .2s ease !important;
+}
+
+.fp-viewing-clientes nav ul li{
+  margin: 10px !important;
+  text-decoration: none !important;
+  color: #001218 !important;
+  transition: .5s ease !important;
+}
+
+.fp-viewing-clientes nav ul li a{
+  color: #001218 !important;
+}
+
+.fp-viewing-clientes nav ul li:nth-child(4) a{
+  color: #cfd244 !important;
+  transition: .5s ease !important;
+}
+
+.fp-viewing-clientes #main_menu{
+    background: #fff !important;
+    transition: .9s ease !important;
+}
+
+/*.fp-viewing-clientes #fp-nav ul li a span, .fp-slidesNav ul li a span {
+    height: 2px;
+    margin: 3px 0 0 -6px;
+    background: #001218;
+    width: 13px;
+    border-radius: 0px;
+    transition: .9s ease !important;
+}
+
+.fp-viewing-clientes #fp-nav ul li a span{
+    background: #000;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.fp-viewing-clientes #fp-nav ul li .fp-tooltip{
+    color:#000;
+    font-family: 'Titillium Web', sans-serif;
+}*/
+/* Fin cuarta opcion del menu */
+
+/* quinta opcion del menu */
+.fp-viewing-contacto #logo_color  {
+  display: inline !important;
+  transition: .2s ease !important;
+}
+
+.fp-viewing-contacto #main_logo{
+  display: none !important;
+  transition: .2s ease !important;
+}
+
+.fp-viewing-contacto nav ul li{
+  margin: 10px !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  transition: .5s ease !important;
+}
+
+.fp-viewing-contacto nav ul li a{
+  color: #fff !important;
+}
+
+.fp-viewing-contacto nav ul li:nth-child(5) a{
+  color: #cfd244 !important;
+  transition: .5s ease !important;
+}
+
+.fp-viewing-contacto #main_menu{
+    background: #fff !important;
+    transition: .9s ease !important;
+}
+
+/*.fp-viewing-contacto #fp-nav ul li a span, .fp-slidesNav ul li a span {
+    height: 2px;
+    margin: 3px 0 0 -6px;
+    background: #001218;
+    width: 13px;
+    border-radius: 0px;
+    transition: .9s ease !important;
+}
+
+.fp-viewing-contacto #fp-nav ul li a span{
+    background: #000;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.fp-viewing-contacto #fp-nav ul li .fp-tooltip{
+    color:#000;
+    font-family: 'Titillium Web', sans-serif;
+}*/
+
+
+.fp-viewing-contacto #logo_color  {
+  display: none !important;
+  transition: .2s ease !important;
+}
+
+.fp-viewing-contacto #main_logo{
+  display: inline !important;
+  transition: .2s ease !important;
+}
+
+.fp-viewing-contacto #main_menu{
+    background: transparent !important;
+    transition: .9s ease !important;
+}
+/* Fin quinta opcion del menu */
+
+.fp-viewing-servicios-0 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+  height: 5px;
+  margin: 0 !important;
+  margin-top: 3px !important;
+  background: #cfd244;
+  width: 30px;
+  border-radius: 0px;
+}
+
+.fp-viewing-servicios-0 #fp-nav ul li a span, .fp-slidesNav ul li a span {
+  border-radius: 0;
+  position: absolute;
+  z-index: 1;
+  height: 5px;
+  width: 30px;
+  border: 0;
+  background: transparent;
+  border:1px solid #fff;
+  left: 50%;
+  top: 50%;
+  margin: 3px 10px 0px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.fp-viewing-servicios-0 #fp-nav ul li, .fp-slidesNav ul li {
+  margin-right: 15px;
+}
+
+.fp-viewing-servicios-0 #fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span {
+  border-radius: 0;
+  position: absolute;
+  z-index: 1;
+  height: 5px;
+  width: 30px;
+  border: 0;
+  background: #cfd244;
+  border:1px solid #fff;
+  left: 50%;
+  top: 50%;
+  margin: 3px 10px 0px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.fp-slidesNav.fp-bottom {
+  top: 15vh !important;
+  padding-left: 137px !important;
+}
+
+
+
+.celular_0.active,
+.celular_2.active,
+.celular_3.active{
+  -webkit-transform: translate3d(-187px, 0px, 0px) !important;
+  -moz-transform: translate3d(-187px, 0px, 0px) !important;
+  -ms-transform:translate3d(-187px, 0px, 0px) !important;
+  transform: translate3d(-187px, 0px, 0px) !important;
+  opacity: 1;
+}
+
+.screen_0.active,
+.screen_1.active{
+  -webkit-transform: translate3d(-134px, 0px, 0px) !important;
+  -moz-transform: translate3d(-134px, 0px, 0px) !important;
+  -ms-transform:translate3d(-134px, 0px, 0px) !important;
+  transform: translate3d(-134px, 0px, 0px) !important;
+  opacity: 1;
+}
+
+.ecommerce_devices img,
+.diseno_devices img,
+.social_devices img,
+.apps_devices img{
+  -webkit-transition: all 0.7s ease-out !important;
+  -moz-transition: all 0.7s ease-out !important;
+  -o-transition: all 0.7s ease-out !important;
+  transition: all 0.7s ease-out !important;
+}
+
+.ecommerce_devices,
+.diseno_devices,
+.social_devices,
+.apps_devices{
+  position: absolute;
+	z-index: 10;
+  -webkit-transition: all 1.2s ease-in-out !important;
+  -moz-transition: all 1.2s ease-in-out !important;
+  -o-transition: all 1.2s ease-in-out !important;
+  transition: all 1.2s ease-in-out !important;
+  padding-left: 20em;
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.celular_0{
+  width: 8%;
+  position: absolute;
+  z-index: 20;
+  margin-left: 50px;
+  opacity: 0;
+}
+
+.celular_2,
+.celular_3{
+  width: 15%;
+  position: absolute;
+  z-index: 20;
+  margin-left: 50px;
+  opacity: 0;
+}
+
+
+.screen_0,
+.screen_1{
+  width: 35%;
+  position: absolute;
+  margin-left:14rem;
+  opacity: 0;
+}

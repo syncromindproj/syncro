@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0; padding: 0;
+        }
+
+        body{
+            font-family: sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 0;
+            color: #fff;
+        }
+
+        #ejemplo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            height: 100vh;
+            width:100%;
+        }
+
+        .half{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: #fff;
+        }
+
+        .left{
+            clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+            background: #001218;
+            width: 70%;
+            position: absolute;
+            left: 0;
+            z-index: 2;
+        }
+
+        .right{
+            background-image: url('images/servicios_1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 95vh;
+            width: 60%;
+            position: absolute;
+            right: 0;
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="ejemplo">
+        <div class="half left">
+            <h1>Ejemplo</h1>
+        </div>
+        <div class="half right">
+asd
+        </div>
+    </section>
+</body>
+</html>
