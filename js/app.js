@@ -2,12 +2,11 @@ window.addEventListener('load', () => {
     const preload = document.querySelector('.precarga');
     preload.classList.add('preload-finish');
     document.getElementById("main_menu").style.visibility = "visible";
-    document.getElementById("fullpage").style.visibility = "visible";
+    document.getElementById("fullpage").style.display = "block";
     CreateFullpage();
 });
 
 function CreateFullpage(){
-    //alert("dddd");
     const sections = new fullpage('#fullpage', {
         autoScrolling: true,
         fitToSection: false,
