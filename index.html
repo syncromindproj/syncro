@@ -15,10 +15,74 @@
     <link rel="icon" href="https://syncro.pe/wp-content/uploads/2020/04/cropped-favicon-32x32.jpg" sizes="32x32" />
     <link rel="icon" href="https://syncro.pe/wp-content/uploads/2020/04/cropped-favicon-192x192.jpg" sizes="192x192" />
     <link rel="apple-touch-icon" href="https://syncro.pe/wp-content/uploads/2020/04/cropped-favicon-180x180.jpg" />
+    <style>
+        .precarga{
+            position:fixed !important;
+            top:0;
+            width:100%;
+            height: 100vh;
+            background:#001218;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.5s ease;
+        }
+
+        .preload-finish{
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .box{
+            position: relative;
+            height: 8rem;
+            width: 12rem;
+            outline: 0;
+            overflow: hidden;
+        }
+
+        .box::before{
+            content: url('images/logo_w.png');
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box::after{
+            content:"";
+            position: absolute;
+            height: 125%;
+            width: 135%;
+            background: #001218;
+            bottom: -10%;
+            left:-130%;
+            animation: spin 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes spin{
+            0%{
+                /*transform: translateY(0) rotate(0deg);*/
+                transform: translateX(0);
+            }
+
+            100%{
+                /*transform: translateY(-100%) rotate(500deg);*/
+                transform: translateX(170%);
+            }
+        }
+    </style>
 </head>
 <body>
 
-    <nav class="nav" id="main_menu">
+    <div class="precarga">
+        <div class="box">
+
+        </div>
+    </div>
+
+    <nav class="nav" id="main_menu" style="visibility: hidden;">
         <a href="#inicio" class="logo">
             <img src="images/logo_w.png" alt="" id="main_logo">
             <img src="images/logo_color.png" alt="" id="logo_color">
@@ -42,7 +106,7 @@
         </ul>
     </nav>
 
-    <main id="fullpage">
+    <main id="fullpage" style="visibility: hidden;">
         <header class="section header">
             <div class="contenedor-titulo">
                 <h3>
@@ -100,8 +164,6 @@
                             <img src="images/icon_performance.png" alt="performance" width="71">
                             <p>Performance</p>
                         </div>  
-                    </div>
-                       
                     </div>
                 </div>
             </div>
